@@ -111,6 +111,12 @@ function cart_type_org_strongarm() {
       'ical' => array(
         'custom_settings' => FALSE,
       ),
+      'cart_vmode_curator' => array(
+        'custom_settings' => FALSE,
+      ),
+      'cart_vmode_sponsor' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -186,6 +192,11 @@ function cart_type_org_strongarm() {
         'choice' => 0,
       ),
       'cart_vmode_minimal' => array(
+        'status' => 1,
+        'default' => 1,
+        'choice' => 0,
+      ),
+      'cart_vmode_sponsor' => array(
         'status' => 1,
         'default' => 1,
         'choice' => 0,
