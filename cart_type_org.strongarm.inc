@@ -151,7 +151,7 @@ function cart_type_org_strongarm() {
   $strongarm->name = 'node_options_cart_organization';
   $strongarm->value = array(
     0 => 'status',
-    1 => 'promote',
+    1 => 'revision',
   );
   $export['node_options_cart_organization'] = $strongarm;
 
@@ -204,6 +204,20 @@ function cart_type_org_strongarm() {
     ),
   );
   $export['panelizer_defaults_node_cart_organization'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_cart_organization_pattern';
+  $strongarm->value = 'organizations/[node:title]';
+  $export['pathauto_node_cart_organization_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'simplify_nodes_cart_organization';
+  $strongarm->value = array();
+  $export['simplify_nodes_cart_organization'] = $strongarm;
 
   return $export;
 }

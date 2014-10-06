@@ -245,6 +245,34 @@ function cart_type_org_panelizer_defaults() {
     $pane->uuid = 'e40cd174-485e-468d-a0a5-2c986fea6868';
     $display->content['new-e40cd174-485e-468d-a0a5-2c986fea6868'] = $pane;
     $display->panels['sidebar'][1] = 'new-e40cd174-485e-468d-a0a5-2c986fea6868';
+    $pane = new stdClass();
+    $pane->pid = 'new-8c8f44ac-e376-40cc-bf13-37c09b3acd30';
+    $pane->panel = 'sidebar';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'cart_view_curriculum-panel_pane_12';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'use_pager' => 1,
+      'pager_id' => '0',
+      'items_per_page' => '5',
+      'arguments' => array(
+        'nid' => '%node:nid',
+      ),
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = '8c8f44ac-e376-40cc-bf13-37c09b3acd30';
+    $display->content['new-8c8f44ac-e376-40cc-bf13-37c09b3acd30'] = $pane;
+    $display->panels['sidebar'][2] = 'new-8c8f44ac-e376-40cc-bf13-37c09b3acd30';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = 'new-d8472017-1426-40db-b08b-bdcc3663d2f0';
   $panelizer->display = $display;

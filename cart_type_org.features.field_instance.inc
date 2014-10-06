@@ -65,7 +65,7 @@ function cart_type_org_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 6,
+      'weight' => 5,
     ),
   );
 
@@ -195,7 +195,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 9,
+      'weight' => 10,
     ),
   );
 
@@ -260,7 +260,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 12,
+      'weight' => 16,
     ),
   );
 
@@ -388,7 +388,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 11,
+      'weight' => 12,
     ),
   );
 
@@ -453,7 +453,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 13,
+      'weight' => 15,
     ),
   );
 
@@ -518,7 +518,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 15,
+      'weight' => 13,
     ),
   );
 
@@ -637,7 +637,7 @@ function cart_type_org_field_default_field_instances() {
         'size' => 100,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 4,
     ),
   );
 
@@ -691,7 +691,7 @@ function cart_type_org_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'options_buttons',
-      'weight' => 3,
+      'weight' => 2,
     ),
   );
 
@@ -756,7 +756,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 16,
+      'weight' => 9,
     ),
   );
 
@@ -821,7 +821,7 @@ function cart_type_org_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 10,
+      'weight' => 11,
     ),
   );
 
@@ -874,7 +874,7 @@ function cart_type_org_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 4,
+      'weight' => 3,
     ),
   );
 
