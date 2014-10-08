@@ -51,14 +51,15 @@ function cart_type_org_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
-    'required' => FALSE,
+    'label' => 'Description',
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'display_summary' => 1,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 20,
@@ -946,7 +947,7 @@ function cart_type_org_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Blog link');
-  t('Body');
+  t('Description');
   t('Facebook link');
   t('Flickr link');
   t('Geolocation');
