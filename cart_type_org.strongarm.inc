@@ -117,6 +117,9 @@ function cart_type_org_strongarm() {
       'cart_vmode_sponsor' => array(
         'custom_settings' => TRUE,
       ),
+      'cart_vmode_publisher' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -197,6 +200,11 @@ function cart_type_org_strongarm() {
         'choice' => 0,
       ),
       'cart_vmode_sponsor' => array(
+        'status' => 1,
+        'default' => 1,
+        'choice' => 0,
+      ),
+      'cart_vmode_publisher' => array(
         'status' => 1,
         'default' => 1,
         'choice' => 0,
